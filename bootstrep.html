@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link  href="estilo.css" rel="stylesheet">
+    <script src="./boot.js" defer></script>
+    <title>Modulo Boodstrep</title>
+</head>
+<body>
+      
+    <div class="titu">
+        <h1>CONHECENDO O BOOTSTRAP</h1>
+    </div>
+    <br>
+ 
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="aula_01.html" id="mf">
+                    <div id="menu01">
+                        <h1 id="grid">Aula 01</h1>
+                    </div>  
+                </a>  
+                <a href="aula_02.html" id="mf">
+                    <div id="menu02">  
+                        <h1 id="form">Aula 02</h1>    
+                    </div>
+                </a>
+                <a href="aula_03.html" id="mf">
+                    <div id="menu03">
+                        <h1>Aula 03<br> Tabelas</h1>
+                    </div>
+                </a>
+                <a href="aula_04.html" id="mf">
+                    <div id="menu04">
+                        <h1>Aula 04<br> Botões</h1>
+                    </div>
+                </a>
+                <a href="aula_05.html" id="mf">
+                    <div id="menu05">
+                        <h1>Aula 05<br> Imagens</h1>
+                    </div>
+                </a>    
+                <a href="aula_06.html" id="mf">
+                    <div id="menu06">
+                        <h1>Aula 06<br> Nevegação</h1>
+                    </div>
+                </a>    
+                <a href="aula_07.html" id="mf">
+                    <div id="menu07">
+                        <h1>Aula 07 <br>Icones</h1>
+                    </div>
+                </a>
+                <a href="aula_08.html" id="mf">
+                    <div id="menu08">
+                        <h1>Aula 08 <br>Modal</h1>
+                    </div>
+                </a>  
+                <a href="aula_09.html" id="mf">
+                    <div id="menu09">
+                        <h1>Aula 09<br> Alertas</h1>
+                    </div>
+                </a>
+                <a href="aula_10.html" id="mf">
+                    <div id="menu10">
+                        <h1>Aula 10<br>  Tooltips</h1>
+                    </div>
+                </a>
+                <a href="aula_11.html" id="mf">
+                    <div id="menu11">
+                        <h1>Aula 11 <br>Tabs</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-7 marcador1">
+                <h1>Oque é BootStrap</h1>
+                <p>Seria praticamente uma biblioteca com fontes, styles e css ja predefinidos, é um ferramenta que utiliza algumas TEGS esprecificas deles e tem com finalidade criar sites mais responsivos (Sites que se adaptam a difenrentes telas).</p>
+                <p>Existem varias versões do BootStrap v1.0, v2.0, v3.0, v4.0 e v5.0 porem cada tem uma documentação diferente. Todas documentações podem ser acessadas atraVEs da pagina prinipal do BootStrap.</p>
+                <p>Todas as versões podem ser acessadas neste <a href="https://getbootstrap.com/docs/versions/">SITE.</a></p>
+
+                <H1>Configurando em um arquivo HTML.</H1>
+                <p>Para configurar é bem simples, basta baixar os arquivos, ou dependendo da vesão vincular o diretamente atraz de uma API, em todas documentação tem amaneira correta de vincular dependendo da versão do BootStrap.</p>
+                
+
+                <h1>Sistema de Grid</h1>
+                <p>Serve para montar um Layout e trabalha com 12 grids, cada grid é representado por uma coluna, cada grid pode ser divido atraves do comando "col-md-1" "col-md-12"</p>
+                <h3>Opções de Grid</h3>
+                    <ul>
+                        <li>"col-xs-1" para telas menor que 768px "Extra small devices ex: Phones"</li>
+                        <li>"col-sm-1" para telas maior que 768px "Small devices ex: Tablets</li>
+                        <li>"col-md-1" para telas maior que 992px "Medium devices ex: Small monitor"</li>
+                        <li>"col-lg-1" para telas maior que 1200px "Large devices ex: Large monitor"</li>
+                    </ul>
+                <h1>Comandos são inserridos dentro de uma "class"</h1>
+                    <ul>
+                        <li>"container" serve para criar uma caixa que tem 12 grids.
+                        </li>
+                        <li>"row" faz com que aquela "div" se torne uma Linha da tabela.</li>
+                        <li>"col" serve para definir quantos grids vai ser utilizado no maximo 12 e minimo 1 na frente do "col" se coloca qual o tamanho da tela em que ele sera representado.
+                        </li>
+                        <li>"page-header" cria um cabeçalho com formações esprecificas.</li>
+                    </ul>
+                <h3>Formularios</h3>
+                    <ul>
+                        <li>"form" cria um formulario TEG de HTML</li>
+                        <li>"label" cria uma etiqueca que serve para nomer o campo de um form</li>
+                        <li>"for" serve para associar dois campos em relação a integração</li>
+                        <li>"form-grup" é uma classe do bootstrap que serve para agrupar elementos de um formulario inderido em uma "div" como uma classe</li>
+                        <li>"form-control" é uma classe pra formação padão de formularios inserido em um "input" como uma classe</li>
+                        <li>"placeholder" uma ferramenta para escrever algo no campo do login, alguma instrução</li>
+                    </ul>
+                <h3>Tabelas</h3>
+                    <ul>
+                        <li>"table" cria a estrutura de uma tabela</li>
+                        <li>"thead" serve apra colocar o cabeçalho de uma tabela</li>
+                        <li>"th" Tabler Headr, complementa o cabeçalho da tabela</li>
+                        <li>"tr" Table Row, cria as linhas de uma tebela
+                        </li>
+                        <li>"td" Table Data, cria as colunar de uma tabela</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+    <div style="background-color: black;">
+    <footer style="font-size: 40px; color:white; text-align:right; margin-right:60px; font-family:'Brush Script MT', cursive;">Por: Felipe Dalosto</footer>
+    <footer style="font-size: 10px; color: white; text-align: right; margin-right: 110px; margin-bottom: 5px;">Todos direitos reservados <span class="glyphicon glyphicon-registration-mark"></span></footer>
+    </div>
+    <br>
+
+
+
+
+</body>
+</html>

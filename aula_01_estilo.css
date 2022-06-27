@@ -1,0 +1,8 @@
+.marcador1{
+    background: rgb(255, 156, 156);
+    border:5px solid rgb(255, 0, 0);
+}
+.marcador2{
+    background: rgb(156, 255, 156);
+    border:5px solid rgb(0, 255, 0);
+}

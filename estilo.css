@@ -1,0 +1,100 @@
+.marcador1{
+    background: rgb(255, 156, 156);
+    border:5px solid rgb(255, 0, 0);
+}
+#menu01, #menu02, #menu03, #menu04, #menu05, #menu06, #menu07, #menu08, #menu09, #menu10, #menu11{
+    background: rgb(248, 255, 156);
+    border:5px solid rgb(238, 255, 0);   
+}
+
+#mf{
+    color: black;
+}
+#mf:hover{
+    color: white;
+
+}
+.titu{
+    font-family: Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#menu01:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu02:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu03:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu04:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu05:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu06:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu07:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu08:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu09:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu10:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}
+#menu11:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 297px;
+    border: 5px solid black;
+    border-end-end-radius: 70px;
+}

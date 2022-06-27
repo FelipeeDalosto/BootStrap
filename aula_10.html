@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+  <title>tooltip e popover</title>
+
+</head>
+<body>
+  <div style="background-color: black;">
+    <span><a href="./bootstrep.html" style="color: white; text-align: left; font-size: 15px;">Home|</a></span><h1 style="color: white; text-align: center;">CONHECENDO O BOOTSTRAP</h1>
+</div>
+<br>
+<h1>TAGS para tooltip e popover</h1>
+    <h3>HTML</h3>
+      <ul>
+        <li>tooltip é alerta que mostra quando passa o mouse em cima</li>
+        <li>popover é alerta que mostra quando aciona um botão</li>
+      </ul>
+    <h1>BootStrap</h1>
+      <ul>
+        <li>"page-header" cabeçalho</li>
+        <li>"data-toggle" serve para chamar o tooltip </li>
+        <li>"data-placement" posição para ficao alerta</li>
+        <li>"tilte" oque esta dentro do tooltip</li>
+      </ul>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">        
+        <h1>Tooltip</h1><br><br>
+
+          <button class="btn btn-success" data-toggle="tooltip"
+          data-placement="top" title="data-placement=top">
+          DICA EM CIMA</button><br><br>
+
+          <button class="btn btn-success" data-toggle="tooltip"
+          data-placement="right" title="data-placement=right">
+          DICA EM DIREITA</button><br><br>
+
+          <button class="btn btn-success" data-toggle="tooltip"
+          data-placement="left" title="data-placement=left">
+          DICA EM ESQUERDA</button><br><br>
+
+          <button class="btn btn-success" data-toggle="tooltip"
+          data-placement="bottom" title="data-placement=bottom">
+          DICA EM BAIXO</button><br><br>
+
+        <div class="btn-toolbar">
+
+          <div class="bnt-group"><br>
+
+            <button type="button" class="btn btn-warning" data-toggle="tooltip"
+            data-placement="top" title="ANTERIOR">
+              <span class="glyphicon glyphicon-fast-backward"></span>
+            </button>
+
+
+            <button type="button" class="btn btn-warning" data-toggle="tooltip"
+            data-placement="top" title="PAUSE">
+              <span class="glyphicon glyphicon-play"></span>
+            </button>
+
+
+            <button type="button" class="btn btn-warning" data-toggle="tooltip"
+            data-placement="top" title="PLAY">
+              <span class="glyphicon glyphicon-pause"></span>
+            </button>
+            
+
+            <button type="button" class="btn btn-warning" data-toggle="tooltip"
+            data-placement="top" title="PROXIMA">
+              <span class="glyphicon glyphicon-fast-forward"></span>
+            </button>
+            
+          </div>
+
+      </div>
+
+    </div><!--col_01-->
+
+    <div class="col-sm-6">
+      <h1>Popover</h1>
+
+      <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Titulo do popover" data-content="mensagem do popover">Click to toggle popover</button>
+      <br><br>
+
+      <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on left
+      </button><br><br>
+      
+      <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on top
+      </button><br><br>
+      
+      <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+      sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on bottom
+      </button><br><br>
+      
+      <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on right
+      </button><br><br>
+
+
+    </div>
+  
+  </div><!--row-->
+
+</div><!--container-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <br><br><br><br><br>
+    <div style="background-color: black;">
+    <footer style="font-size: 40px; color:white; text-align:right; margin-right:60px; font-family:'Brush Script MT', cursive;">Por: Felipe Dalosto</footer>
+    <footer style="font-size: 10px; color: white; text-align: right; margin-right: 110px; margin-bottom: 5px;">Todos direitos reservados <span class="glyphicon glyphicon-registration-mark"></span></footer>
+    </div>
+    <br>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
+    <script src="bootstrap/js/bootstrap.min.js" defer></script>
+    <title>modeal</title>
+
+</head>
+<body>
+    <div style="background-color: black;">
+        <span><a href="./bootstrep.html" style="color: white; text-align: left; font-size: 15px;">Home|</a></span><h1 style="color: white; text-align: center;">CONHECENDO O BOOTSTRAP</h1>
+    </div>
+ <h1>TAGS para modal</h1>
+    <h3>HTML</h3>
+        <ul>
+            <li>não utiliza muitas tegs pois é o modal usa mais funções do JavaScript</li>
+        </ul>
+    <h3>BootStrap</h3>
+        <ul>
+            <li>"modal" serve para definir quando acionado o botão ele chamar uma outra janela ele é uma class no botão tambem é necessario ter uma "id" para fazer a ligação dele no data-target</li>
+            <li>"data-toggle="modal"" esta difinindo que o botao tem função "modal"</li>
+            <li>"data-target="#id"" serve pra quando precionar o botao ele chamar a caixa do modal </li>
+            <li>"modal-dialog" cria a caixa do modal (caixa branca)</li>
+            <li>"modal-content" é div que abre pra colocar dentro dela as funções e textos da caixa</li>
+            <li>"modal-header" cabeçalho da caixa</li>
+            <li>"modal-body" corpo da caixa</li>
+            <li>"modal-footer" roda pé da caixa</li>
+            <li>"close" class do bootstrap para fechar o modal, para funiconar precisa estar dentro de um botao</li>
+            <li>"data-dismiss" class do bootstrap para fechar algum comando nessa caso seria o modal entao a sintax iria ficar "data-dismiss="modal""</li>
+            <li>"modal-titel" serve para colocar um titulo dentro do header</li>
+            <li>"modal fade" faz com que tenha um interação e efeito qunado abre a tela do modal</li>
+            <li>"modal-sm" seria para definir o tamanho do modal de utiliza dentro do "modal-dialog"</li>
+
+
+        </ul>
+
+<div class="container">
+    <div class="row">
+
+    <h3>Modal BootStrap</h3>
+
+    <button type="button" class="btn btn-info"
+    data-toggle="modal" data-target="#janela">
+    Logar</button><!--Criar um botao com a class modal do buton-->
+    
+        <form class="modal fade" id="janela">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+
+                    <div class="modal-header"><!--Cabeçalho-->
+                        <button type="button" class="close"
+                        data-dismiss="modal">
+                            <span class="
+                            glyphicon glyphicon-remove">
+                            </span>
+                        </button> 
+                        <h4 class="modal-titel">Faça seu login</h4>  
+                    </div>
+
+
+                    <div class="modal-body"><!--corpo-->
+                        <form>
+
+                            <div class="form-group">
+                                <label for="mail">E-mail</label>    
+                                <input type="email" class="form-control"
+                                id="mail" placeholder="Digite seu E-mail">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senha">Senha</label>    
+                                <input type="password" class="form-control"
+                                id="senha" placeholder="Digite sua Senha">
+                            </div>
+
+                        </form>
+
+
+                    </div>
+
+                    <div class="modal-footer"><!--roda pé-->
+             
+                        <button type="button" class="btn btn-danger"
+                        data-dismiss="modal">Cancelar
+                        </button> 
+
+
+                        <button type="submit" class="btn btn-success">
+                            Logar
+                        </button> 
+
+                        
+                    </div>
+
+                </div>
+
+            </div>
+          
+        </form>
+
+    </div><!--row-->
+
+</div>
+<br><br><br><br><br>
+<div style="background-color: black;">
+<footer style="font-size: 40px; color:white; text-align:right; margin-right:60px; font-family:'Brush Script MT', cursive;">Por: Felipe Dalosto</footer>
+<footer style="font-size: 10px; color: white; text-align: right; margin-right: 110px; margin-bottom: 5px;">Todos direitos reservados <span class="glyphicon glyphicon-registration-mark"></span></footer>
+</div>
+<br>
+
+
+</body>
+</html>

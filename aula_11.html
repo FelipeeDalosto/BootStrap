@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+  <title>Tabs</title>
+
+</head>
+<body>
+    <div style="background-color: black;">
+        <span><a href="./bootstrep.html" style="color: white; text-align: left; font-size: 15px;">Home|</a></span><h1 style="color: white; text-align: center;">CONHECENDO O BOOTSTRAP</h1>
+    </div>
+    <br>
+<h1>TAGS para tabs</h1>
+    <h3>HTML</h3>
+        <ul>
+            <li>"p" para paragrafo</li>
+            <li>"ul" lista nao ordenada</li>
+            <li>"ol" lista ordenada</li>
+            <li>"li" itens da lista</li>
+            <li>"a href=#" serve para colocar um link</li>
+            <li>dentro do "a href=#" é nescessario colocar o "ID" que ira ter o vinculo com a aba</li>
+        </ul>
+    <h3>BootStrap</h3>
+        <ul>
+            <li>"lead" aplica formatações para subtitulos</li>
+            <li>"nav" de navegação pois as tabs é uma nevegação</li>
+            <li>"nav nav-tabs" sintax completa para navegação em abas utilizando estilo normal</li>
+            <li>"nav nav-pills" outra estilização para as abas</li>
+            <li>"role=tablis" tem a função de ser reconhecido como uma lista de abas</li>
+            <li>"active" serve para dizer que o item esta ativo</li>
+            <li>"tab-content" onde fica os conteudos da aba</li>
+            <li>"tab-pane active" serve para dizer que esta aba esta referenciada por ativa</li>
+            <li>"tabpainel" quer dizer que este é um painel de aba</li>
+            <li>"data-toggle=tab" deve ser colocado em cada link para que seja conhecido como uma aba</li>
+        </ul>
+
+<div class="container">
+    <div class="page-header">
+        <h1>Abas no BootStrap</h1>
+        <p class="lead">Cria abas para poder alterna facilmente entre elas</p>
+    </div><!--cabeçalho-->
+    
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active"><a href="#info" role="tab" data-toggle="tab">Informações</a></li>
+        <li><a href="#nov" role="tab" data-toggle="tab">Novidade</a></li>
+        <li><a href="#ava" role="tab" data-toggle="tab">Avalições</a></li>
+        <li><a href="#comp" role="tab" data-toggle="tab">Compre aqui</a></li>
+    </ul>
+
+    <div class="tab-content">
+
+        <div class="tab-pane active" role="tabpanel" id="info">
+            <h3>Informações</h3>
+            <p>Pode utilizar essa estrutura para colocar as informações</p>
+        </div>
+
+        <div class="tab-pane" role="tabpanel" id="nov">
+            <h3>Novidade</h3>
+            <p>Pode utilizar essa estrutura para colocar as informações</p>
+        </div>
+
+        <div class="tab-pane" role="tabpanel" id="ava">
+            <h3>Avaliaçõess</h3>
+            <p>Pode utilizar essa estrutura para colocar as informações</p>
+        </div>
+
+        <div class="tab-pane" role="tabpanel" id="comp">
+            <h3>Compre aqui</h3>
+            <p>Pode utilizar essa estrutura para colocar as informações</p>
+        </div>
+
+    </div>
+
+</div><!--container-->       
+
+
+<div class="container">
+    <div class="page-header">
+        <h1>Abas no BootStrap</h1>
+        <p class="lead">Cria abas para poder alterna facilmente entre elas</p>
+    </div><!--cabeçalho-->
+    
+    <ul class="nav nav-pills" role="tablist">
+        <li class="active"><a href="#info" role="tab" data-toggle="tab">Informações</a></li>
+        <li><a href="#nov" role="tab" data-toggle="tab">Novidade</a></li>
+        <li><a href="#ava" role="tab" data-toggle="tab">Avalições</a></li>
+        <li><a href="#comp" role="tab" data-toggle="tab">Compre aqui</a></li>
+    </ul>
+
+    <div class="tab-content">
+
+        <div class="tab-pane active" role="tabpanel" id="info">
+            <h3>Informações</h3>
+            <p>Pode utilizar essa estrutura para colocar as informações</p>
+        </div>
+
+        <div class="tab-pane" role="tabpanel" id="nov">
+            <h3>Novidade</h3>
+            <p>Pode utilizar essa estrutura para colocar as informações</p>
+        </div>
+
+        <div class="tab-pane" role="tabpanel" id="ava">
+            <h3>Avaliações</h3>
+            <p>Pode utilizar essa estrutura para colocar as informações</p>
+        </div>
+
+        <div class="tab-pane" role="tabpanel" id="comp">
+            <h3>Compre aqui</h3>
+            <p>Pode utilizar essa estrutura para colocar as informações</p>
+        </div>
+
+    </div>
+
+</div><!--container-->   
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    $('[data-toggle="popover"]').popover()
+    })
+</script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<br><br><br><br><br>
+<div style="background-color: black;">
+<footer style="font-size: 40px; color:white; text-align:right; margin-right:60px; font-family:'Brush Script MT', cursive;">Por: Felipe Dalosto</footer>
+<footer style="font-size: 10px; color: white; text-align: right; margin-right: 110px; margin-bottom: 5px;">Todos direitos reservados <span class="glyphicon glyphicon-registration-mark"></span></footer>
+</div>
+<br>
+
+</body>
+</html>

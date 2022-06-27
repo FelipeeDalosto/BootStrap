@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+     <link  href="aula_03_estilo.css" rel="stylesheet">
+    <title>Tabelas</title>
+</head>
+<body>
+    <div style="background-color: black;">
+        <span><a href="./bootstrep.html" style="color: white; text-align: left; font-size: 15px;">Home|</a></span><h1 style="color: white; text-align: center;">CONHECENDO O BOOTSTRAP</h1>
+    </div>
+    <h1>TAGS para tabelas</h1>
+
+        <h3>HTML</h3>
+            <ul>
+                <li>"table" cria a tabela.</li>
+                <li>"thead" cria um cabeçalho pra uma tabela.</li>
+                <li>"tbody" Cria o corpo da tabela</li>
+                <li>"tr" Table Row cria as linhas da tabela</li>
+                <li>"th" Table header colocar informações no baçalho</li>
+                <li>"td" Table Data cria as colunas de uma tabela</li>
+                <li>A estrutura é "table" "tr" "td" "/td" "/tr" "table"</li>
+                <li>"colspan" mescla linha</li>
+                <li>"rowspan" mescla colunas</li>
+            </ul>
+        
+            
+        <h3>BootStrap</h3>
+            <ul>
+                <li>Todos comando do bootstrap são inderiso dentro de um class</li>
+                <li>"table" formata a tabala no padrao do bootstrap</li>
+                <li>"table-striped" faz a linhas terem cores diferens</li>
+                <li>"table-bordered" cria uma borda padrao</li>
+                <li>"table-over" faz uma interação quando passa o mouse</li>
+                <li>"table-condensed" define um padding pre definido</li>
+                <li>"sucess" colore o background de verde pode ser usando em "td e "tr"</li>
+                <li>"danger" colore o background de vermelho pode ser usando em "td e "tr"</li>
+                <li>"info" colore o background de azul pode ser usando em "td e "tr"</li>
+                <li>"warnig" colore o background de amarelo pode ser usando em "td e "tr"</li>
+            </ul><br>
+
+        <div class="container">
+            <table class="table table-striped table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Moviemntação</th>
+                        <th>Valor</th>
+                        <th>Saldo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Saída</td>
+                        <td>R$ 500,00</td>
+                        <td class="danger">R$ -500,00</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Entrada</td>
+                        <td>R$ 100,00</td>
+                        <td class="danger">R$ -400,00</td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>Entrada</td>
+                        <td>R$ 400,00</td>
+                        <td class="info">R$ 0,00</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>Entrada</td>
+                        <td>R$ 600,00</td>
+                        <td class="success">R$ 600,00</td>
+                    </tr>
+                    <tr>
+                        <td>005</td>
+                        <td>Entrada</td>
+                        <td>R$ 900,00</td>
+                        <td class="success">R$ 1.500,00</td>
+                    </tr>
+                    <tr>
+                        <td>006</td>
+                        <td>Saída</td>
+                        <td>R$ 200,00</td>
+                        <td class="success">R$ 1.400,00</td>
+                    </tr>
+                    <tr>
+                        <td>007</td>
+                        <td>Saída</td>
+                        <td>R$ 700,00</td>
+                        <td class="success">R$ 700,00</td>
+                    </tr>
+                    <tr>
+                        <td>008</td>
+                        <td>Saída</td>
+                        <td>R$ 1.250,00</td>
+                        <td class="danger">R$ -550,00</td>
+                    </tr>
+                    <tr>
+                        <td>009</td>
+                        <td>Entrada</td>
+                        <td>R$ 20,00</td>
+                        <td class="danger">R$ -530,00</td>
+                    </tr>
+                    <tr>
+                        <td>010</td>
+                        <td>Saída</td>
+                        <td>R$ 500,00</td>
+                        <td class="success">R$ 1.030,00</td>
+                    </tr>
+                    <tr>
+                        <td>011</td>
+                        <td>Saída</td>
+                        <td>R$ 500,00</td>
+                        <td class="success">R$ 1.530,00</td>
+                    </tr>
+
+                </tbody>
+                <thead>
+                    <tr>
+                        <th colspan="3">total</th>
+                        <th>R$ 1.530,00</th>
+                    </tr>
+                </thead>
+
+            </table>
+
+        </div>
+        <br><br><br><br><br>
+        <div style="background-color: black;">
+        <footer style="font-size: 40px; color:white; text-align:right; margin-right:60px; font-family:'Brush Script MT', cursive;">Por: Felipe Dalosto</footer>
+        <footer style="font-size: 10px; color: white; text-align: right; margin-right: 110px; margin-bottom: 5px;">Todos direitos reservados <span class="glyphicon glyphicon-registration-mark"></span></footer>
+        </div>
+        <br>
+
+</body>
+</html>
